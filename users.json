@@ -1,0 +1,26 @@
+[
+
+    {
+
+        "id":1,
+        "name":"Dmitro Prisizanij",
+        "email":"dmitroprisiznij@gmail.com"
+    },
+    {
+
+        "id":2,
+        "name":"Larisa Prisizna",
+        "email":"lora1994@gmail.com"
+    },
+    {
+        "id":3,
+        "name":"Andrej Prisizanij",
+        "email":"pav_p123@mail.ru"
+    },
+    {
+        "id":4,
+        "name":"Daria Bojko",
+        "email":"daria313@gmail.com"
+    }
+
+]
