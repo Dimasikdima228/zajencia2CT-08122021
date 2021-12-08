@@ -20,6 +20,12 @@
             var nazwa = document.getElementById("mojstan").value;
             var xhr = new XMLHttpRequest();
             xhr.open('GET','Sprawdz.php?stan='+nazwa,true);
+            xhr.onload = function(){
+                console.log(this.responseText);
+
+                document.getElementsByTagName("div")[0].innerHTML = this.responseText;
+            }
+            xhr.send();
         }
     </script>
 </body>
